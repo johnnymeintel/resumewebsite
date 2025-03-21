@@ -1,0 +1,191 @@
+/* ===================================================================================
+ * Professional Font Styling for Resume Website
+ * Fonts: IBM Plex Sans (Body) & Merriweather (Headings)
+ * Using Google Fonts for Faster Loading & Better Cross-Browser Compatibility
+=================================================================================== */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Merriweather:wght@400;700&display=swap');
+
+/* ==============================================
+   Base Typography - Clean and Professional
+============================================== */
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px; /* Increased Base Font Size */
+    line-height: 1.7;
+    color: #333; /* Dark Gray for Better Readability */
+    background-color: #fff;
+}
+
+/* Headings - Serif for a Professional Touch */
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 36px; /* Slightly Larger for Emphasis */
+    color: #222; /* Darker for Contrast */
+    line-height: 1.3;
+}
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #222;
+}
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #222;
+}
+
+/* Subheadings - Semi-Bold for Emphasis */
+h4, h5, h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #444; /* Slightly Lighter than Headings */
+}
+
+/* Paragraphs - Improved Readability */
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px; /* Increased for Readability */
+    margin-bottom: 18px;
+}
+
+/* About Me Section - Slightly Larger Font */
+#about p {
+    font-size: 20px; /* Larger for Emphasis */
+    line-height: 1.8;
+}
+
+/* Work Experience - Increase Readability */
+.work p {
+    font-size: 19px; /* More Readable */
+    line-height: 1.8;
+}
+
+/* Job Titles - Make Stand Out */
+.work h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Job Description Bullet Points */
+.work ul {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-left: 20px;
+}
+
+/* Italic Styling - Serif for Elegance */
+em {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+
+/* Links - Stylish Yet Readable */
+a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #0073e6; /* Professional Blue */
+    text-decoration: none;
+}
+a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
+
+/* Buttons - Professional Look */
+button {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #0073e6;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Footer - Minimal & Professional */
+footer {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    padding: 20px 0;
+}
+
+/* Responsive Font Sizes */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    #about p {
+        font-size: 18px;
+    }
+    .work p {
+        font-size: 17px;
+    }
+}
+
+/* ===============================================
+   Project Section Styling
+   - Ensures consistent sizing with work section
+   - Properly formats bullet points
+   - Matches typography with rest of resume
+   =============================================== */
+
+/* Project description text */
+.nine.columns.main-col p {
+    font-size: 19px;
+    line-height: 1.8;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Project bullet points list */
+.nine.columns.main-col ul {
+    /* Formatting */
+    list-style-type: disc !important;
+    margin-left: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+/* Individual bullet points */
+.nine.columns.main-col ul li {
+    /* Typography */
+    font-size: 19px !important;
+    line-height: 1.8 !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    
+    /* Spacing */
+    padding-left: 0 !important; 
+    margin-bottom: 10px !important;
+    position: static !important;
+}
+
+/* Ensure no custom bullets appear */
+.nine.columns.main-col ul li:before {
+    display: none !important;
+    content: none !important;
+}
