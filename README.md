@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-"# johnnymeintel" 
-Hello, World...
-=======
-# resumewebsite
->>>>>>> d75fe0b52bae2dbc7358637fa6070b407bcc2923
+I completed the Cloud Resume Challenge by implementing a full-stack cloud project:
+
+Designing and deploying a static website in Azure Storage with custom domain
+Implementing HTTPS using Azure CDN
+Creating a CI/CD pipeline using GitHub Actions
