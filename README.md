@@ -4,7 +4,7 @@
 This repository contains my personal resume website, built as part of the [Cloud Resume Challenge](https://cloudresumechallenge.dev/). It showcases my professional experience, education, certifications, and projects in cloud computing.
 
 ## Live Website
-Visit the live website at: [https://your-domain-here.com](https://your-domain-here.com)
+Visit the live website at: [https://johnnymeintel.com](https://your-domain-here.com)
 
 ## Features
 - Responsive design that works on mobile and desktop
