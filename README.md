@@ -1,7 +1,7 @@
 # Johnny Meintel - Resume Website
 
 ## Overview
-This repository contains my personal resume website, built as part of the [Cloud Resume Challenge](https://cloudresumechallenge.dev/). It showcases my professional experience, education, certifications, and projects in cloud computing.
+This repository contains my personal resume website, it showcases my professional experience, education, certifications, and projects in cloud computing.
 
 ## Features
 - Responsive design that works on mobile and desktop
@@ -19,7 +19,6 @@ This repository contains my personal resume website, built as part of the [Cloud
 - JavaScript
 - Font Awesome for icons
 - jQuery for interactive elements
-- Hosted on Azure Storage with CDN (later moved to GitHub pages)
 
 ## Project Structure
 ```
@@ -41,14 +40,6 @@ This repository contains my personal resume website, built as part of the [Cloud
 ├── index.html             # Main HTML file
 └── favicon.png            # Website favicon
 ```
-
-## Cloud Architecture
-This resume website is deployed using Azure services as part of the Cloud Resume Challenge:
-
-- **Azure Storage**: Hosts the static website files
-- **Azure CDN**: Provides HTTPS and improves global load times
-- **Custom Domain**: Connected to Azure CDN endpoint
-- **GitHub Actions**: CI/CD pipeline for automatic deployment
 
 ## Setup Instructions
 
